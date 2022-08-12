@@ -1,0 +1,27 @@
+{
+  "name": "netflix-clone2",
+  "version": "1.0.0",
+  "description": "Netflix Clone/Redesign by Group 7. Tyson Unce, Kesu Endalkachew, Evelyn Langarcia, Natalie Ruiz, Jerry Contreras, and Sammie Stephenson.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SammieStephenson/netflix-clone2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SammieStephenson/netflix-clone2/issues"
+  },
+  "homepage": "https://github.com/SammieStephenson/netflix-clone2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
