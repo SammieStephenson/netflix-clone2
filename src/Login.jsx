@@ -10,7 +10,7 @@ export default function Login() {
 	const [password, setPassword] = useState('');
 
 	const addUser = () => {
-		if (email & password) {
+		if (email && password) {
 			Axios.post('https://netflixclonebackendr2h.herokuapp.com/add', {
 				email: email,
 				password: password,
@@ -19,7 +19,7 @@ export default function Login() {
 			});
 			navigate('/landing');
 		} else if (email === '' || password === '') {
-			alert('please input the required fields');
+			alert('Incorrect Password or Username');
 		}
 	};
 	const navigate = useNavigate();
