@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Netflix Clone/Redesign by Group 7. Tyson Unce, Kesu Endalkachew, Evelyn Langarcia, Natalie Ruiz, Jerry Contreras, and Sammie Stephenson.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created a React App using the Agile method to accomplish a 4 page redesign of the popular "Netflix" streaming platform. Used API for Gallery movie traliers, MySQL database for login page inputs, Navigation bar and footer. 
 
-## Available Scripts
+Starting with a wireframe and user persona's we established a design concept as well as target audience for our site. 
+Figma Wireframe: https://www.figma.com/file/WA4MlDc5y8CbiDIeeDTwWx/Netflix-Redesign?node-id=0%3A1
+User Persona: https://www.canva.com/design/DAFJDLWfYIU/-dM7Jny1M6sqrammwTd4yA/view?utm_content=DAFJDLWfYIU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
-In the project directory, you can run:
+![1](https://user-images.githubusercontent.com/102987799/184285824-5fcd931b-8b5f-431c-9c4b-6aaa013a3bde.png)
+![2](https://user-images.githubusercontent.com/102987799/184285840-9b3d0cac-3ec4-4a37-bfa7-ae206bf703c2.png)
 
-### `npm start`
+We did attempt to use Monday to assist with the Agile method however came to work together in call and did not need it for reference due to quick turn around. Mostly used for Front End communication during inital set up and organization of tasks. 
+https://sammiestephenson.monday.com/boards/3060991850
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Backend is hosted on Heroku 
+Front End database is hosted on RDS
+React App hosted on AWS Amplify: https://main.d1zo0b1ozl1ups.amplifyapp.com/gallery
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clean Repository named "netflix-clone2": https://github.com/SammieStephenson/netflix-clone2
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Load the site on the login page, once a correct email and password is submitted and matches the database you're taken to the gallery where you see the Navigation bar, Footer, and Gallery page where the API for the movie trailers. We also have a movie description page for a specific movie. 
