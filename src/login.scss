@@ -1,4 +1,11 @@
+#loginButton {
+	background-color: red;
+	border: none;
+}
+
 .login {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	width: 100vw;
 	height: 100vh;
 	background: linear-gradient(
@@ -6,7 +13,7 @@
 			rgba(0, 0, 0, 0) 0%,
 			rgba(0, 0, 0, 1) 100%
 		),
-		url('http://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg');
+		url('../public/loginBackground.jpeg');
 	background-size: cover;
 	position: relative;
 
@@ -26,7 +33,6 @@
 	.container {
 		width: 100%;
 		height: 100%;
-
 		top: 0;
 		left: 0;
 		display: flex;
@@ -34,6 +40,7 @@
 		align-items: center;
 		justify-content: center;
 		color: white;
+		position: absolute;
 
 		form {
 			width: 300px;
@@ -48,8 +55,9 @@
 			input {
 				height: 40px;
 				border-radius: 5px;
-				background-color: gray;
+				background-color: #313030;
 				color: white;
+				border: none;
 				padding-left: 10px;
 
 				&::placeholder {

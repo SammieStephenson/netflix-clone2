@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Nav.css';
 function Nav() {
+	const navigate = useNavigate();
 	const [show, handlerShow] = useState(false);
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
@@ -19,10 +21,12 @@ function Nav() {
 			/>
 
 			{/* <button className='nav__avatar'>Login</button> */}
+
 			<img
 				className='nav__avatar2'
 				src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'
 				alt='AVATAR'
+				onClick={() => navigate('/landing')}
 			/>
 		</div>
 	);

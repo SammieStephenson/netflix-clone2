@@ -5,7 +5,8 @@ import './Landing.css';
 // import Login from "./pages/login/Login";
 // import Login from "../login/Login";
 import { Link } from 'react-router-dom';
-import { profiles } from './profiles';
+import profiles from './profiles.json';
+
 export default function Landing() {
 	// const Homeroute=()=>{
 	//  console.log('click');
@@ -21,12 +22,12 @@ export default function Landing() {
 
 	return (
 		<div className='landing-container'>
-			<img className='logo' src='images/Net.png' />
+			<img className='logo' src='https://i.postimg.cc/63FJH5dQ/Net.png' />
 			<div className='content'>
 				<span className='title'>Who's Watching?</span>
 				<div className='profiles'>
 					{profiles.map((profile, index) => (
-						<Link to={'/login'} className='profile'>
+						<Link to={'/gallery'} className='profile'>
 							<img className='img' src={profile.image_src} />
 							<span className='username'>{profile.username}</span>
 						</Link>
