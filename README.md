@@ -1,4 +1,4 @@
-#Netflix Clone/Redesign by Group 7. Tyson Unce, Kesu Endalkachew, Evelyn Langarcia, Natalie Ruiz, Jerry Contreras, and Sammie Stephenson.
+Netflix Clone/Redesign by Group 7. Tyson Unce, Kesu Endalkachew, Evelyn Langarcia, Natalie Ruiz, Jerry Contreras, and Sammie Stephenson.
 
 Created a React App using the Agile method to accomplish a 4 page redesign of the popular "Netflix" streaming platform. Used API for Gallery movie traliers, MySQL database for login page inputs, Navigation bar and footer. 
 
