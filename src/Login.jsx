@@ -8,9 +8,13 @@ import Landing from './Landing';
 export default function Login() {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
-
+	const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
 	const addUser = () => {
-		if (email && password) {
+		if (!regex.test(email)) {
+			alert('Incorrect email format');
+		} else if (email === '' || password === '') {
+			alert('Incorrect Password or Username');
+		} else if (email && password) {
 			Axios.post('https://netflixclonebackendr2h.herokuapp.com/add', {
 				email: email,
 				password: password,
@@ -18,8 +22,6 @@ export default function Login() {
 				console.log('Table Updated');
 			});
 			navigate('/landing');
-		} else if (email === '' || password === '') {
-			alert('Incorrect Password or Username');
 		}
 	};
 	const navigate = useNavigate();
