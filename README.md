@@ -14,7 +14,7 @@ https://sammiestephenson.monday.com/boards/3060991850
 
 Backend is hosted on Heroku 
 Front End database is hosted on RDS
-React App hosted on AWS Amplify: https://main.d1zo0b1ozl1ups.amplifyapp.com/gallery
+React App hosted on AWS Amplify: https://main.d1zo0b1ozl1ups.amplifyapp.com/
 
 Clean Repository named "netflix-clone2": https://github.com/SammieStephenson/netflix-clone2
 
