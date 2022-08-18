@@ -10,8 +10,8 @@ export default function Login() {
 	const [password, setPassword] = useState('');
 	const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
 	const addUser = () => {
-		if (!regex.test(email)) {
-			alert('Incorrect email format');
+		if (!regex.test(email) || password.length < 10) {
+			alert('Incorrect email format or Password is too short');
 		} else if (email === '' || password === '') {
 			alert('Incorrect Password or Username');
 		} else if (email && password) {
